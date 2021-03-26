@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-function ChatPage() {
+export default function ChatPage() {
     return (
-        <div>
-            ChatPage
-        </div>
+        <div>푸푸</div>
     )
 }
-
-export default ChatPage

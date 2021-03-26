@@ -1,6 +1,8 @@
-  import firebase from 'firebase/app'
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/database';
+import 'firebase/storage';
+
   var firebaseConfig = {
     apiKey: "AIzaSyCMw8kNt_uHYIQ6ubE6tJr2tMWgR3CDNWE",
     authDomain: "react-firebase-chatapp-3c115.firebaseapp.com",
@@ -10,6 +12,6 @@
     appId: "1:877809346079:web:f2785c81f3780b9f88172a",
     measurementId: "G-158THH84EG"
   };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
